@@ -1,3 +1,5 @@
+//Language settings
+
 const tr = {
     settings: 'Tweet Ayarları'
 }
