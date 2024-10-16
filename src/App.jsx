@@ -72,7 +72,7 @@ function App() {
         console.log(twitter);
 
         setAvatar(twitter.profile_image_url_https); // Avatar'ı set et
-        setName(twitter.name);
+        setName(twitter.name); // twitter.name'i set et
         setUsername(twitter.screen_name);
         setTweet(twitter.status.text);
         setRetweet(twitter.status.retweet_count);
