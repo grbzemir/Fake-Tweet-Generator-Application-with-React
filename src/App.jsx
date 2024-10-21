@@ -25,6 +25,7 @@ function App() {
   }, [lang]);
 
   const tweetFormat = (tweet) => {
+    /* format ayarları atılcak tweetin*/
     return tweet
       .replace(/@([\w]+)/g, '<span>@$1</span>')
       .replace(/#([\wşçöğüıİ]+)/gi, '<span>#$1</span>')
