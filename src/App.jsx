@@ -66,6 +66,7 @@ function App() {
   };
 
   const fetchTwitterInfo = () => {
+    /*tweet bilgilerini çek */
     fetch(`https://typeahead-js-twitter-api-proxy.herokuapp.com/demo/search?q=${username}`)
       .then(res => res.json())
       .then(data => {
