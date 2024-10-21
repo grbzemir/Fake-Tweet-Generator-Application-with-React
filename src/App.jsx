@@ -93,6 +93,7 @@ function App() {
 
   return (
     <>
+      {/* Tweet ayarlarının yapılcağı kısım */}
       <div className="tweet-settings">
         <h3>
           {langText?.settings}
